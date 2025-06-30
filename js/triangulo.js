@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
             saida.textContent = "os valores podem formar um triângulo"
         }
         else {
-            saida.textContent = "os valores não formão um triângulo"
+            saida.textContent = "os valores não formam um triângulo"
         }
 
     });

@@ -6,10 +6,10 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: #333;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    background-color: #e3e4ff;
 }
 
 header {
@@ -17,7 +17,6 @@ header {
     text-align: center;
     margin-bottom: 40px;
     padding-bottom: 20px;
-    border-bottom: 1px solid #eee;
 }
 
 nav, a, li {
@@ -25,7 +24,7 @@ nav, a, li {
     justify-content: center;
     list-style: none;
     text-decoration: none;
-    color: #1e2855;
+    color: #243ba3;
 }
 
 a:hover{
@@ -36,10 +35,15 @@ h1 {
     color: rgb(255, 255, 255);
 }
 
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
 li {
     margin: 10px;
 }
-
 main {
     margin-bottom: 30px;
     background-color: #fff;
@@ -67,5 +71,5 @@ button:hover {
     margin-top: 10px;
     padding: 10px;
     font-family: monospace;
-    color: #6f00ff;
+    color: #9545ff;
 }
