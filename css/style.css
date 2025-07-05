@@ -58,6 +58,7 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     background-color: #e3e4ff;
     margin-bottom: 20px;
     padding: 40px;
@@ -75,6 +76,14 @@ button:hover {
     width: 100%;
 }
 
+.formulario {
+    width: auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-sizing: content-box;
+    box-shadow: 3px 3px 5px #b9aeca;
+}
 
 .resultado {
     margin-top: 10px;
