@@ -66,16 +66,6 @@ button:hover {
     line-height: 1.5;
 }
 
-.caixa input, textarea{
-    font-size: 1.5rem;
-    color: rgba(166, 128, 145, 1);
-    background-color: rgba(237, 217, 190, 1);
-    padding: 3px;
-    border-radius: 5px;
-    border: 0;
-    width: 100%;
-}
-
 .formulario {
     width: auto;
     padding: 20px;
@@ -83,6 +73,18 @@ button:hover {
     background-color: #ffffff;
     box-sizing: content-box;
     box-shadow: 3px 3px 5px #b9aeca;
+}
+
+.formulario input{
+    font-size: 1.5rem;
+    color: #FAEFF9;
+    background-color: #E7BDF2;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 3px;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
 }
 
 .resultado {
