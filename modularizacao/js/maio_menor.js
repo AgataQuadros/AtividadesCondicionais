@@ -1,8 +1,9 @@
-import { validacao } from "../utils/utils.js";
+import { validacaoMulti } from "../utils/utils.js";
 import { limparFormulario } from "../utils/utils.j";
 
-export function calcularmaiormenor() {
+export function calcularMaiormenor() {
     let inputCriado = false;
+    
     limparFormulario();
 
     if (!inputCriado) {
@@ -52,5 +53,5 @@ export function calcularmaiormenor() {
         formulario.appendChild(entrada3);
         formulario.appendChild(verificarBtn);
         inputCriado = true;
-    }
-}
+    };
+};
