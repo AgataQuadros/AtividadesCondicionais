@@ -1,4 +1,4 @@
-export function limparFormulario() {
+export function limparFormulario(formulario, saida, inputCriado) {
     formulario.innerHTML = '';
     saida.textContent = '';
     inputCriado = false;

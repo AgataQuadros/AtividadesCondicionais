@@ -2,9 +2,12 @@ import { validacao } from "../utils/utils.js";
 import { limparFormulario } from "../utils/utils.js";
 
 export function calcularParimpar() {
+    const formulario = document.getElementById('formulario');
+    const saida = document.getElementById('resultado')
+
     let inputCriado = false;
 
-    limparFormulario();
+    limparFormulario(formulario, saida, inputCriado);
 
     if (!inputCriado) {
         const entrada = document.createElement('input');
