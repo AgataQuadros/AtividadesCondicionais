@@ -5,20 +5,22 @@
 }
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-    padding: 20px;
+    border: 20px dashed #cebaf5;
     background-color: #e3e4ff;
 }
 
 header {
-    background-color: #0c0e7a;
-    text-align: center;
+    background-color: #5c2fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
     margin-bottom: 40px;
-    padding-bottom: 20px;
 }
 
 h1 {
-    color: rgb(255, 255, 255);
+    font-size: 60px;
+    color: #E7BDF2;
 }
 
 ul {
@@ -28,15 +30,25 @@ ul {
 }
 
 main {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     margin-bottom: 30px;
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 20px;
 }
 
 button {
@@ -54,19 +66,33 @@ button:hover {
     background-color: #264eff;
 }
 
+footer {
+    height: 120px;
+    text-align: center;
+    padding: 20px;
+    background-color: #5c2fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #E7BDF2;
+}
+
 .caixa {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     background-color: #e3e4ff;
-    margin-bottom: 20px;
+    margin: 6px;
     padding: 40px;
+    border: 2px dashed #cebaf5;
     border-radius: 4px;
     line-height: 1.5;
 }
 
 .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: auto;
     padding: 20px;
     border-radius: 8px;
